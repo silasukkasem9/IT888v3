@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-Commerce</title>
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">E-Commerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Assets/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="assets/products.html">Products</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Assets/fashion.html">Fashion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Filters and List -->
+    <div class="container py-5">
+        <div class="row mb-4">
+            <!-- Category Filter -->
+            <div class="col-md-3">
+                <h5>Filter by Category</h5>
+                <div class="list-group">
+                    <a href="/Assets/electronics.html" class="list-group-item list-group-item-action">Electronics</a>
+                    <a href="/Assets/fashion.html" class="list-group-item list-group-item-action">Fashion</a>
+                    <a href="/Assets/home&living.html" class="list-group-item list-group-item-action">Home & Living</a>
+                </div>
+            </div>
+
+            <!-- Sorting and Products -->
+            <div class="col-md-9">
+                <h5>Sort By</h5>
+                <select class="form-select mb-4" aria-label="Sort products">
+                    <option selected>Price: Low to High</option>
+                    <option value="1">Price: High to Low</option>
+                    <option value="2">Newest First</option>
+                    <option value="3">Best Selling</option>
+                </select>
+
+                <div class="row">
+                    <!-- Product 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://aish.com/wp-content/uploads/2021/08/Catch-the-Good-in-Your-Child-and-Watch-it-Grow910x512.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">A kidnapped child</h5>
+                                <p class="card-text text-muted">he's under my basement.</p>
+                                <p class="text-success">$49.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.qpu0CJtZ0-ka69GfDzpn3wHaFo?pid=Api&P=0&h=180" class="card-img-top"
+                                alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title">A rope for kidnapping</h5>
+                                <p class="card-text text-muted">very strong</p>
+                                <p class="text-success">$59.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://c8.alamy.com/comp/HRHC31/uranium-235-atom-model-HRHC31.jpg"class="card-img-top" alt="Product 3">
+                            <div class="card-body">
+                                <h5 class="card-title">a Uranium</h5>
+                                <p class="card-text text-muted">taste good tho</p>
+                                <p class="text-success">$69.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://vignette.wikia.nocookie.net/elderscrolls/images/6/69/Adamantium_Ore_Tribunal.png/revision/latest?cb=20150510103628" class="card-img-top"
+                                alt="Product 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Adamantium</h5>
+                                <p class="card-text text-muted">try inject this into your bones</p>
+                                <p class="text-success">$79.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://i.ytimg.com/vi/fY3FnN6YgBc/maxresdefault.jpg" class="card-img-top" alt="Product 5">
+                            <div class="card-body">
+                                <h5 class="card-title">AK47</h5>
+                                <p class="card-text text-muted">not recommended using inside your house</p>
+                                <p class="text-success">$89.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-light rounded">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/M-84-Flash-Bang-Grenade.jpg" class="card-img-top" alt="Product 6">
+                            <div class="card-body">
+                                <h5 class="card-title">flash bang</h5>
+                                <p class="card-text text-muted">open your eyes wide</p>
+                                <p class="text-success">$99.99</p>
+                                <a href="#" class="btn btn-outline-primary btn-block">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Products Row -->
+            </div> <!-- End col-md-9 -->
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p class="text-muted">&copy; 2025 E-Commerce</p>
+    </footer>
+
+    <!-- JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
